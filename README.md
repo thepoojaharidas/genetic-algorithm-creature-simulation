@@ -62,14 +62,3 @@ pip install pybullet numpy matplotlib
 python ga_mountain.py
 
 
-## Key Learnings
-- Co-adaptation of form and function is critical in embodied AI tasks
-- Population size directly influences diversity and convergence speed
-- Procedural URDF generation enables scalable morphology search
-- Physics-based fitness evaluation provides realistic performance signals
-
-## References
-- Silver et al. (2016) — AlphaGo, Nature
-- Yannakakis & Togelius (2018) — Artificial Intelligence and Games
-- Bostrom (2014) — Superintelligence
-

@@ -57,3 +57,46 @@ crossover, and mutation.
 - **CSV** — results logging
 
 ## Project Structure
+├── ga_mountain.py        # Main GA loop and simulation runner
+├── creature.py           # Creature genome and URDF generation
+├── population.py         # Population management and evolution
+├── plot_results.py       # Per-experiment fitness plots
+├── plot_comparison.py    # Cross-experiment comparison plots
+├── shapes/               # URDF shape assets (mountain)
+├── results_pop10.csv     # Logged results for population 10
+├── results_pop20.csv     # Logged results for population 20
+├── results_pop30.csv     # Logged results for population 30
+
+
+## How to Run
+Install dependencies
+
+pip install pybullet numpy matplotlib
+
+
+Run the simulation
+
+python ga_mountain.py
+
+
+Plot individual results
+
+python plot_results.py
+
+
+Compare across population sizes
+
+python plot_comparison.py
+
+
+## Key Learnings
+- Co-adaptation of form and function is critical in embodied AI tasks
+- Population size directly influences diversity and convergence speed
+- Procedural URDF generation enables scalable morphology search
+- Physics-based fitness evaluation provides realistic performance signals
+
+## References
+- Silver et al. (2016) — AlphaGo, Nature
+- Yannakakis & Togelius (2018) — Artificial Intelligence and Games
+- Bostrom (2014) — Superintelligence
+

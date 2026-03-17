@@ -56,37 +56,10 @@ crossover, and mutation.
 - **Matplotlib** — fitness visualisation
 - **CSV** — results logging
 
-## Project Structure
-├── ga_mountain.py        # Main GA loop and simulation runner
-├── creature.py           # Creature genome and URDF generation
-├── population.py         # Population management and evolution
-├── plot_results.py       # Per-experiment fitness plots
-├── plot_comparison.py    # Cross-experiment comparison plots
-├── shapes/               # URDF shape assets (mountain)
-├── results_pop10.csv     # Logged results for population 10
-├── results_pop20.csv     # Logged results for population 20
-├── results_pop30.csv     # Logged results for population 30
-
-
 ## How to Run
-Install dependencies
-
+```bash
 pip install pybullet numpy matplotlib
-
-
-Run the simulation
-
 python ga_mountain.py
-
-
-Plot individual results
-
-python plot_results.py
-
-
-Compare across population sizes
-
-python plot_comparison.py
 
 
 ## Key Learnings
